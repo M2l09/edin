@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edwin</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="edwin__header">
+        <div class="container">
+            <nav class="edwin__navbar">
+                <div id="toggle">
+                    <div class="one"></div>
+                    <div class="two"></div>
+                    <div class="three"></div>
+                </div>
+                <div class="row">
+                    <div class="col-100">
+                        <div class="edwin__header-menu">
+                            <ul>
+                                <li><a href="#">Instractor</a></li>
+                                <li><a href="#">Pricing</a></li>
+                                <li><a href="#">FAQ</a></li>
+                            </ul>
+                            <div class="header-btn">
+                                <a href="#" class="btn sign-up">Sign Up</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="edwin__hero">
+        <!-- <div class="container"> -->
+            <div class="edwin__hero--merge">
+                <div class="edwin__hero-video">
+                    <div class="edwin__hero--play">
+                       <a href="#"> <img src="image/play.png" alt=""></a>
+                    </div>
+                    <video >
+                        <source src="image/header.mp4" type="video/mp4">
+                        <source src="image/header.mp4" type="video/ogg">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="edwin__Learn-design">
+                    <div class="edwin__offer">
+                        <p class="edwin__offer-content"><span>offer</span> The offer is aviable for only first few customers</p>
+                    </div>
+                    <h1>Learn design in a new way</h1>
+                    <p class="second">Leverage agile frameworks to provide a robust synopsis for high level overviews. </p>
+                    <form action="email-form">
+                        <input type="email" name="email" placeholder="Enter your email address">
+
+                        <button>Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        <!-- </div> -->
+    </section>
+
+    <section class="edwin__box">
+        <div class="container">
+            <div class="row column-gap-2">
+                <div class="col-28">
+                    <div class="edwin__boxs">
+                        <div class="edwin__boxs-img">
+                            <img src="image/box-1.svg" alt="">
+                            <span></span>
+                        </div>
+                        <div class="edwin__boxs-text">
+                            <h3>Best Teachers</h3>
+                            <p class="b-text">Truly it was a great journey, and in it I met with many, whom to know.</p>
+                        </div>
+                        <a href="#" class="read-more">Read more <img src="image/Path.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-28">
+                    <div class="edwin__boxs">
+                        <div class="edwin__boxs-img">
+                            <img src="image/box-2.svg" alt="">
+                            <span></span>
+                        </div>
+                        <div class="edwin__boxs-text">
+                            <h3>Best Teachers</h3>
+                            <p class="b-text"> Truly it was a great journey, and in it I met with many, whom to know.</p>
+                        </div>
+                        <a href="#" class="read-more">Read more <img src="image/Path.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-28">
+                    <div class="edwin__boxs">
+                        <div class="edwin__boxs-img">
+                            <img src="image/box-3.svg" alt="">
+                            <span></span>
+                        </div>
+                        <div class="edwin__boxs-text">
+                            <h3>Best Teachers</h3>
+                            <p class="b-text">Truly it was a great journey, and in it I met with many, whom to know.</p>
+                        </div>
+                        <a href="#" class="read-more">Read more <img src="image/Path.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="edwin__premium">
+        <div class="edwin__premium--bg">
+            <div class="container">
+                <div class="row column-gap-100">
+                    <div class="col-45">
+                        <div class="edwin__premium--text">
+                            <span>Features</span>
+                            <h1>Premium Courses</h1>
+                            <h4>Lifts the horizon</h4>
+                            <p class="text-2">What looked like a small patch of purple grass, above five feet square, was moving across the sand in their direction.</p>
+                        </div>
+                        <div class="edwin__premium--support">
+                            <div class="edwin__sremium--support--img">
+                                <img src="image/Group 4217.png" alt="">
+                            </div>
+                            <div class="edwin__premium--support--text">
+                                <h5>Free Support</h5>
+                                <p>Truly it was a great journey, and in it I met with many, whom to know.</p>
+                            </div>
+                        </div>
+                        <div class="edwin__premium--bonuses">
+                            <div class="edwin__premium--bonuses--img">
+                                <img src="image/Group 4218.png" alt="">
+                            </div>
+                            <div class="edwin__premium--bonuses--text">
+                                <h5>Free Support</h5>
+                                <p>Truly it was a great journey, and in it I met with many, whom to know.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-45">
+                        <div class="edwin__premium-img">
+                            <img src="image/Bitmap.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="edwin__number">
+        <div class="container">
+            <div class="edwin__number-content">
+                <div class="edwin__number--teachers">
+                    <div class="edwin__number--teachers--img">
+                        <img src="image/n-1.png" alt="">
+                    </div>
+                    <div class="edwin__number--teachers--text">
+                        <span class="counter">99+</span>
+                        <p class="t-text">Teachers</p>
+                    </div>
+                </div>
+                <div class="edwin__number--students">
+                    <div class="edwin__number--students--img">
+                        <img src="image/n-2.png" alt="">
+                    </div>
+                    <div class="edwin__number--students--text">
+                        <span class="counter">42</span>
+                        <p class="t-text">Students</p>
+                    </div>
+                </div>
+                <div class="edwin__number--lessons">
+                    <div class="edwin__number--lessons--img">
+                        <img src="image/n-3.png" alt="">
+                    </div>
+                    <div class="edwin__number--lessons--text">
+                        <span class="counter">730</span>
+                        <p class="t-text">Lessons</p>
+                    </div>
+                </div>
+                <div class="edwin__number--success">
+                    <div class="edwin__number--success--img">
+                        <img src="image/n-4.png" alt="">
+                    </div>
+                    <div class="edwin__number--students--text">
+                        <span class="counter">24%</span>
+                        <p class="t-text">Success</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="edwin__experts">
+        <div class="container">
+            <div class="edwin__experts--heading">
+                <span>Teachers</span>
+                <h1>Experts Advisors</h1>
+            </div>
+            <div class="row margin-top advisors-list">
+                <div class="col-33">
+                    <div class="edwin__experts--card">
+                        <div class="edwin__experts--card--img">
+                            <img src="image/pic.png" alt="">
+                        </div>
+
+                        <div class="edwin__experts--card--content">
+                            <div class="card--content--text">
+                                <h3>Beatriz Brito</h3>
+                                <p>Science</p>
+                            </div>
+                            <div class="card--content--icon card--content-social">
+                                <div class="facebook">
+                                    <a href="#"><img src="image/facebook.svg" alt=""></a>
+                                </div>
+                                <div class="twitter">
+                                    <a href="#"><img src="image/twitter.svg" alt=""></a>
+                                </div>
+                                <div class="insta">
+                                    <a href="#"><img src="image/instagram.svg" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-33">
+                    <div class="edwin__experts--card-2">
+                        <div class="edwin__experts--card--img">
+                            <img src="image/pic (1).png" alt="">
+                        </div>
+
+                        <div class="edwin__experts--card--content-2">
+                            <div class="card--content--text">
+                                <h3>Beatriz Brito</h3>
+                                <p>Science</p>
+                            </div>
+                            <div class="card--content--icon-2 card--content-social">
+                                <div class="facebook">
+                                    <a href="#"><img src="image/facebook.svg" alt=""></a>
+                                </div>
+                                <div class="twitter">
+                                    <a href="#"><img src="image/twitter.svg" alt=""></a>
+                                </div>
+                                <div class="insta">
+                                    <a href="#"><img src="image/instagram.svg" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-33">
+                    <div class="edwin__experts--card-3">
+                        <div class="edwin__experts--card--img">
+                            <img src="image/pic (2).png" alt="">
+                        </div>
+
+                        <div class="edwin__experts--card--content-3">
+                            <div class="card--content--text">
+                                <h3>Beatriz Brito</h3>
+                                <p>Science</p>
+                            </div>
+                            <div class="card--content--icon-3 card--content-social">
+                                <div class="facebook">
+                                    <a href="#"><img src="image/facebook.svg" alt=""></a>
+                                </div>
+                                <div class="twitter">
+                                    <a href="#"><img src="image/twitter.svg" alt=""></a>
+                                </div>
+                                <div class="insta">
+                                    <a href="#"><img src="image/instagram.svg" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-btn">
+                <a href="javascript:void(0)" class="btn see-all">see all</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="edwin__premium">
+        <div class="container">
+            <div class="edwin__premium--main">
+                <div class="edwin__premium-plan">
+                    <div class="edwin__premium-plan--bg"></div>
+                    <div class="edwin__premium-plan-dot">
+                        <span class="blue"></span>
+                        <span class="yellow"></span>
+                        <span class="pink"></span>
+                    </div>
+                    <div class="plan-99">
+                        <span>$99</span>
+                    </div>
+                    <div class="edwin__premium-plan-heading">
+                        <h3>Premium</h3>
+                        <p>Yearly Plan</p>
+                    </div>
+                    <div class="polygon"></div>
+                    <div class="edwin__premium-plan-menu">
+                        <ul>
+                            <li class="blue-item">Flexible schedule</li>
+                            <li class="pink-item">Mobile learning</li>
+                            <li class="yellow-item">Practice quizzes</li>
+                        </ul>
+                    </div>
+                    <div class="celender"></div>
+                    <div class="plan-btn">
+                        <a href="#" class="btn plan">Get Started</a>
+                    </div>
+                </div>
+                <div class="edwin__premium--pricing">
+                    <span>Pricing</span>
+                    <h1>Our Flexible Pricing Plans</h1>
+                    <p class="top">Apparently we had reached a great height in the atmosphere, for the sky was a dead black.</p>
+                    <p class="bottom">By the same illusion which lifts the horizon of the sea to the level of the spectator on a hillside, the sable cloud beneath was dished out, and the car seemed to float in the middle.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="edwin__events">
+        <div class="container">
+            <div class="edwin__events--heading">
+                <span>Schedule</span>
+                <h1>Upcoming Events</h1>
+            </div>
+            <div class="margin-top">
+                <div class="row bg m-0 align-items-center">
+                    <div class="col-50 p-0">
+                        <div class="edwin__events--computers">
+
+                            <img src="image/Rectangle.png" alt="">
+
+                            <div class="edwin__events--computers-heading">
+                                <span class="science">Science</span>
+                                <h3>Quantum Computers</h3>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-50 p-0">
+                        <div class="edwin__events--data">
+                            <div class="edwin__events--date">
+                                <span class="date">DATE</span>
+                                <h6>04 Nov 2019</h6>
+                            </div>
+                            <div class="edwin__events--duration">
+                                <span class="date">DURATION</span>
+                                <h6>10 Hours</h6>
+                            </div>
+                            <div class="edwin__events--price">
+                                <span>PRICE</span>
+                                <h6>$400</h6>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="margin-top">
+                <div class="row bg m-0 align-items-center">
+                    <div class="col-50 p-0">
+                        <div class="edwin__events--mechanics">
+
+                            <img src="image/Rectangle-1.png" alt="">
+
+                            <div class="edwin__events--mechanics-heading">
+                                <span class="design">Design</span>
+                                <h3>Mechanics</h3>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-50 p-0">
+                        <div class="edwin__events--data">
+                            <div class="edwin__events--date">
+                                <span class="date">DATE</span>
+                                <h6>04 Nov 2019</h6>
+                            </div>
+                            <div class="edwin__events--duration">
+                                <span class="date">DURATION</span>
+                                <h6>10 Hours</h6>
+                            </div>
+                            <div class="edwin__events--price">
+                                <span>PRICE</span>
+                                <h6>$400</h6>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="margin-top">
+                <div class="row bg m-0 align-items-center">
+                    <div class="col-50 p-0">
+                        <div class="edwin__events--neuroscience">
+
+                            <img src="image/Rectangle.png" alt="">
+
+                            <div class="edwin__events--neuroscience-heading">
+                                <span class="science-2">Science</span>
+                                <h3>neuroscience</h3>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-50 p-0">
+                        <div class="edwin__events--data">
+                            <div class="edwin__events--date">
+                                <span class="date">DATE</span>
+                                <h6>04 Nov 2019</h6>
+                            </div>
+                            <div class="edwin__events--duration">
+                                <span class="date">DURATION</span>
+                                <h6>10 Hours</h6>
+                            </div>
+                            <div class="edwin__events--price">
+                                <span>PRICE</span>
+                                <h6>$400</h6>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="edwin__questions">
+        <div class="container">
+            <div class="row column-gap">
+                <div class="col-45">
+                    <div class="edwin__questions--heading">
+                        <h1>Frequently asked questions ?</h1>
+                    </div>
+                </div>
+                <div class="col-45">
+                    <div class="edwin__questions--t">
+                        <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row mt column-gap">
+                <div class="col-45">
+                    <div class="accordions">
+                        <div class="accordion">
+                            <input type="checkbox" id="first" />
+                            <label for="first" class="acc-label">What I will learn after completing this course?</label>
+                            <div class="acc-content">
+                                <p>
+                                    Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="accordion">
+                            <input type="checkbox" id="second" />
+                            <label for="second" class="acc-label">Do you give support when necessary?</label>
+                            <div class="acc-content">
+                                <p>
+                                    Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="accordion">
+                            <input type="checkbox" id="third" />
+                            <label for="third" class="acc-label">How can I make the payment?</label>
+                            <div class="acc-content">
+                                <p>
+                                    Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-45">
+                    <div class="accordions">
+                        <div class="accordion">
+                            <input type="checkbox" id="first" />
+                            <label for="first" class="acc-label-2">Do you offer Moneyback Guarantee?</label>
+                            <div class="acc-content">
+                                <p>
+                                    Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="accordion">
+                            <input type="checkbox" id="second" />
+                            <label for="second" class="acc-label-2">When can I earn money after this course?</label>
+                            <div class="acc-content">
+                                <p>
+                                    Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="accordion">
+                            <input type="checkbox" id="third" />
+                            <label for="third" class="acc-label-2">Can I share this access to my friends?</label>
+                            <div class="acc-content">
+                                <p>
+                                    Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="edwin__footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-33">
+                    <div class="edwin__footer--logo">
+                        <a href="#" class="logo">Edwin.</a>
+                    </div>
+                    <div class="edwin__footer--text">
+                        <p>Join now to receive personalized recommendations from the full catalog.</p>
+                    </div>
+                    <div class="edwin__footer--icon card--content-social">
+                        <div class="facebook">
+                            <a href="#"><img src="image/facebook.svg" alt=""></a>
+                        </div>
+                        <div class="twitter">
+                            <a href="#"><img src="image/twitter.svg" alt=""></a>
+                        </div>
+                        <div class="insta">
+                            <a href="#"><img src="image/instagram.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-33">
+                    <div class="edwin__footer--menu">
+                        <h5>Popular Courses</h5>
+                        <ul>
+                            <li><a href="#">MasterTrack Certificates</a></li>
+                            <li><a href="#">Professional Certificates</a></li>
+                            <li><a href="#">University Certificates</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-33">
+                    <div class="edwin__footer--email">
+                        <h5>Newsletter</h5>
+                        <label for="email"></label>
+                        <input type="email" id="email" name="email" placeholder="Your email">
+                        <a href="#" class="btn subscribe">Subscribe</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="edwin__footer--copy-right">
+                <div class="copy-right-text">
+                    <p>© 2022 UIDesign.to - All rights reserved.</p>
+                </div>
+                <div class="team">
+                    <span>Terms of Conditions </span>
+                    <span> Privacy Policy</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
