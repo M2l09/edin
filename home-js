@@ -1,0 +1,14 @@
+jQuery( document ).ready(function() {
+    jQuery('.edwin__hero--play img').click(function(){
+        if (jQuery(".edwin__hero-video video").get(0).paused) {
+            jQuery(".edwin__hero-video video").trigger('play');
+        } else {
+            jQuery(".edwin__hero-video video").trigger('pause');
+        }
+    });
+    jQuery('.see-all').click(function(){
+        var advisors_list = jQuery('.advisors-list').clone(true);
+         jQuery('.advisors-list').after(advisors_list);
+         //jQuery(this).remove();
+     });
+});
